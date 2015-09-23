@@ -4,7 +4,7 @@
 ## This function named 'makeCacheMatrix' create a list of functions to set and get the initial matrix to be inverted
 ## and two other functions to set and get the value of the inverted matrix
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) { 
 										  m <- NULL
        									  set <- function(y) {
                												  x <<- y
